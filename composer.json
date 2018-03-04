@@ -22,16 +22,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Azorpax\\Sms\\": "src/"
+            "Softon\\Sms\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Azorpax\\Sms\\SmsServiceProvider"
+                "Softon\\Sms\\SmsServiceProvider"
             ],
             "aliases": {
-                "Sms": "Azorpax\\Sms\\Facades\\Sms"
+                "Sms": "Softon\\Sms\\Facades\\Sms"
             }
         }
     },
